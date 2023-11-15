@@ -1,0 +1,47 @@
+# EditorConfig (is awesome): http://EditorConfig.org
+
+# * top-most EditorConfig file.
+root = true
+
+# default style settings.
+[*]
+charset = utf-8
+end_of_line = crlf
+indent_size = 4
+tab_width = 4
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# For *.csv files. And the paket.dependencies file.
+[{*.csv,paket.dependencies}]
+insert_final_newline = false
+
+# For *.targets files.
+[*.targets]
+insert_final_newline = false
+indent_size = 2
+tab_width = 2
+
+# For *.csproj files.
+[*.csproj]
+indent_size = 2
+
+# For *.manifest files.
+[*.manifest]
+indent_size = 1
+tab_width = 1
+
+# For *.appxmanifest files.
+[*.{appxmanifest,lock}]
+indent_size = 2
+tab_width = 2
+
+# For *.sln files.
+[*.sln]
+indent_style = tab
+
+# For the project's JSON files files.
+[{global,launchSettings,dotnet-tools,packages.lock}.json]
+indent_size = 2
+insert_final_newline = false

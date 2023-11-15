@@ -250,8 +250,11 @@ paket-files/
 .fake/
 
 # JetBrains Rider
-.idea/
 *.sln.iml
+.idea.*.iml
+modules.xml
+contentModel.xml
+shelf/
 
 # CodeRush
 .cr/
@@ -259,3 +262,11 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+
+# JetBrains .idea files
+**/.idea/csv-editor.xml
+**/.idea/.gitignore
+**/.idea/GitLink.xml
+**/.idea/dictionaries/
+**/.idea/workspace.xml
+**/.idea/projectSettingsUpdater.xml
