@@ -1,4 +1,4 @@
-﻿using BluePointLilac.Methods;
+using BluePointLilac.Methods;
 using System.IO;
 
 namespace ContextMenuManager.Methods

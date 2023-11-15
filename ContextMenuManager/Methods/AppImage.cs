@@ -1,4 +1,4 @@
-﻿using BluePointLilac.Methods;
+using BluePointLilac.Methods;
 using ContextMenuManager.Properties;
 using System.Drawing;
 using System.Windows.Forms;
