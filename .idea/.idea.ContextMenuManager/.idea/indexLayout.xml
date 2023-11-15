@@ -3,8 +3,14 @@
   <component name="UserContentModel">
     <attachedFolders />
     <explicitIncludes>
+      <Path>.editorconfig</Path>
+      <Path>.gitattributes</Path>
+      <Path>.gitignore</Path>
+      <Path>.grazie.en.yaml</Path>
       <Path>.idea</Path>
       <Path>ContextMenuManager.sln.DotSettings</Path>
+      <Path>Copy-Git-Diff-Output.ps1</Path>
+      <Path>Donate.md</Path>
       <Path>LICENSE</Path>
       <Path>README-en.md</Path>
       <Path>README.md</Path>
