@@ -62,3 +62,7 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
+
+
+# For property files.
+*.ini  text -diff
